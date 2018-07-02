@@ -1,0 +1,12 @@
+name: RPChat
+version: 0.1
+main: net.apherfox.rpchat.RPChat
+
+author: ApherFox
+description: A plugin which allows the creation of rp channels.
+website: http://fluffpalace.ga/
+
+comands:
+  rpchat:
+    description: Core command for RPChat
+    aliases: [rpc]
