@@ -1,8 +1,8 @@
-package net.apherfox.rpchat;
+package net.apherfox.random-proj;
 
 import org.bukkit.plugin.java.Javaplugin;
 
-public final class rpchat extends JavaPlugin {
+public final class random-proj extends JavaPlugin {
 	@Override
 	public void onEnabled() {
 		getLogger().info("onEnable has been invoked!");
