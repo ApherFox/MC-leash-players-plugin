@@ -1,12 +1,12 @@
-name: RPChat
+name: Random-Proj
 version: 0.1
-main: net.apherfox.rpchat.RPChat
+main: net.apherfox.random-proj.Random-Proj
 
 author: ApherFox
-description: A plugin which allows the creation of rp channels.
+description: This is just an attempt for me to create something 
 website: http://fluffpalace.ga/
 
 commands:
-  rpchat:
-    description: Core command for RPChat
-    aliases: [rpc]
+  rpj:
+    description: Core command for Random-Proj
+    aliases: [rpj]
