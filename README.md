@@ -1,6 +1,3 @@
-# spigot-plugin-template
-Template Project for the Minecraft / Spigot Plugin based on Gradle
-
 Creating Eclipse Project Files:
 
 `./gradlew eclipse`
