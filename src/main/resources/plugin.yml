@@ -1,12 +1,10 @@
-name: Random-Proj
-version: 0.1
-main: net.apherfox.random-proj.Random-Proj
-
-author: ApherFox
-description: This is just an attempt for me to create something 
-website: http://fluffpalace.ga/
+name: empty-spigot-plugin
+version: @version@
+description: An empty example plugin for Spigot with Gradle
+main: net.javaforge.minecraft.spigot.plugin.EmptySpigotPlugin
 
 commands:
-  rpj:
-    description: Core command for Random-Proj
-    aliases: [rpj]
+  hello:
+    description: say hello to the user
+  tp:
+    description: teleport to the spawn
