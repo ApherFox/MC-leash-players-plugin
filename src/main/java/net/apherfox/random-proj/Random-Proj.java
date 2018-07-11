@@ -1,4 +1,4 @@
-package net.javaforge.minecraft.spigot.plugin;
+package net.apherfox.random-proj;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -6,7 +6,7 @@ public class EmptySpigotPlugin extends JavaPlugin {
 
     public void onEnable() {
 
-        getLogger().info("Enabled EmptySpigotPlugin");
+        getLogger().info("Enabled Random-Proj");
 
         getCommand("hello").setExecutor(new HelloCommand());
         getCommand("tp").setExecutor(new TeleportCommand());
@@ -16,7 +16,7 @@ public class EmptySpigotPlugin extends JavaPlugin {
     @Override
     public void onDisable() {
 
-        getLogger().info("Disabled EmptySpigotPlugin");
+        getLogger().info("Disabled Random-Proj");
     }
 
 }

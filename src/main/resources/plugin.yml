@@ -1,7 +1,7 @@
-name: empty-spigot-plugin
+name: Random-Proj
 version: @version@
-description: An empty example plugin for Spigot with Gradle
-main: net.javaforge.minecraft.spigot.plugin.EmptySpigotPlugin
+description: A Random-Project
+main: net.apherfox.random-proj.Random-Proj
 
 commands:
   hello:

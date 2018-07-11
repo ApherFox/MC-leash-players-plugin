@@ -1,4 +1,4 @@
-package net.javaforge.minecraft.spigot.plugin;
+package net.apherfox.random-proj;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
