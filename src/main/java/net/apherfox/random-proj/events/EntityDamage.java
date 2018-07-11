@@ -1,4 +1,4 @@
-package events;
+package net.apherfox.random-proj.events;
 
 import main.Pair;
 
