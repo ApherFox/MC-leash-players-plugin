@@ -1,4 +1,4 @@
-package GUIs;
+package net.apherfox.random-proj.GUIs;
 
 import java.util.ArrayList;
 import java.util.Arrays;

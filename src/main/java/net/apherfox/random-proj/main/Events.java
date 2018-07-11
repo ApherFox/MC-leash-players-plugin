@@ -1,4 +1,4 @@
-package main;
+package net.apherfox.random-proj.main;
 
 import events.EntityDamage;
 import events.HangingBreak;

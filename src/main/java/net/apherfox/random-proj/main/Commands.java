@@ -1,4 +1,4 @@
-package main;
+package net.apherfox.random-proj.main;
 
 import commands.Leash;
 import commands.Unleash;
