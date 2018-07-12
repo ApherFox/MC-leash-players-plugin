@@ -1,4 +1,4 @@
-package net.apherfox.random-proj.main;
+﻿package main;
 
 import java.io.File;
 import java.io.IOException;
@@ -58,7 +58,7 @@ public class Message
   {
     ArrayList<String> messages = new ArrayList();
     for (String message : config.getStringList(path)) {
-      messages.add(MessageFormat.format(message.replaceAll("'", "''").replaceAll("&", "�"), arguments.toArray()));
+      messages.add(MessageFormat.format(message.replaceAll("'", "''").replaceAll("&", "§"), arguments.toArray()));
     }
     return messages;
   }

@@ -1,0 +1,12 @@
+name: Random-Proj
+version: 1.0
+author: ApherFox
+main: main.Plugin
+
+commands:
+    leash:
+        description: View a leash request
+        usage: /leash (id)
+    unleash:
+        description: Unleashes yourself of a submissive
+        usage: /unleash [username]

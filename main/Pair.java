@@ -1,4 +1,4 @@
-package net.apherfox.random-proj.main;
+package main;
 
 import java.io.File;
 import java.io.IOException;
@@ -48,9 +48,10 @@ public class Pair
   
   public static void init()
   {
-    load();
+     load();
     save();
     
+
     Bukkit.getScheduler().runTaskTimer(Plugin.plugin, new Runnable()
     {
       public void run()
@@ -63,8 +64,8 @@ public class Pair
       }
     }, 5L, 5L);
     
-    Bukkit.getScheduler().runTaskTimer(Plugin.plugin, new Runnable()
-    {
+
+    Bukkit.getScheduler().runTaskTimer(Plugin.plugin, new Runnable()    {
       public void run()
       {
         ArrayList<Pair> later = new ArrayList();
@@ -233,13 +234,14 @@ public class Pair
         move();
         
         this.bat = ((Bat)this.submissive.getWorld().spawnEntity(this.submissive.getLocation(), EntityType.BAT));
-        this.bat.addPotionEffect(new PotionEffect(PotionEffectType.INVISIBILITY, Integer.MAX_VALUE, 1));
+        this.bat.addPotionEffect(new PotionEffect(PotionEffectType.INVISIBILITY, 2147483647, 1));
         this.bat.setAI(false);
         this.bat.setInvulnerable(true);
         this.bat.setCollidable(false);
         this.bat.setSilent(true);
         this.bat.setLeashHolder(this.dominant);
         
+
         this.online = true;
         this.batID = this.bat.getUniqueId();
         save();
@@ -247,6 +249,5 @@ public class Pair
     }
     else {
       this.online = false;
-    }
-  }
+    }  }
 }

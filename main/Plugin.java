@@ -1,4 +1,4 @@
-package net.apherfox.random-proj.main;
+package main;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package net.apherfox.random-proj.main;
+package main;
 
 import events.EntityDamage;
 import events.HangingBreak;
@@ -29,6 +29,7 @@ public class Events
     Bukkit.getServer().getPluginManager().registerEvents(new HangingBreak(), Plugin.plugin);
     Bukkit.getServer().getPluginManager().registerEvents(new PlayerInteract(), Plugin.plugin);
     
+
     Bukkit.getServer().getPluginManager().registerEvents(new InventoryClick(), Plugin.plugin);
     Bukkit.getServer().getPluginManager().registerEvents(new InventoryClose(), Plugin.plugin);
   }
